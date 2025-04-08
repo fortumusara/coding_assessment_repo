@@ -1,0 +1,47 @@
+# Task A - Parse Plain Text Call Durations
+
+## Description
+
+This task processes a plain text file containing pairs of call
+start and end times (one per line). It calculates the duration
+of each call in seconds and returns a sorted list of durations.
+
+## Sample Input (plain text)
+
+07:00:00 14:30:00 08:00:00 17:30:00
+
+
+## Sample Output
+
+[ "27000", "34200" ]
+
+
+## How to Run
+
+```bash
+cd task_a
+python3 main.py < sample_input.txt
+
+Logic
+
+    Read each line of input.
+
+    Split line into start and end time.
+
+    Convert both times to seconds since midnight.
+
+    Compute difference (duration).
+
+    Sort and print list of durations as JSON.
+
+Requirements
+
+    Python 3.x
+
+    No external libraries needed.
+
+Files
+
+    main.py - The main script.
+
+    sample_input.txt - Sample data for testing.
