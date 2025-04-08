@@ -12,16 +12,7 @@ Each instance will return the result along with a node ID to indicate which cont
 - Run at least two instances of the container.
 - Each instance should return the node ID along with the results.
 
-Example Output 
-
-``json
-{
-  "id": "node-1",
-  "result": [ "25200", "88200" ]
-}
-
-
-How to run 
+## How to run 
 
 
 ### Step 1: Install Docker
