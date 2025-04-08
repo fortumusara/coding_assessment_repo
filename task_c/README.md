@@ -77,60 +77,6 @@ docker rm node-1 node-2
     sample_input.txt: Example input for testing.
 
 
-# To add this to your `README.md`:
-
-1. Open your `task_c/README.md` file using `nano`:
-   ```bash
-   nano task_c/README.md
-
-    Paste the formatted content above into the file.
-
-    Save and exit by pressing Ctrl + X, then Y to confirm, and Enter to save the changes.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-docker rm node-1 node-2
-
-# Endpoints
-
-    POST /process
-    Accepts plain text input, processes it, and returns a JSON response with the result and the node ID.
-
-# Requirements
-
-    Docker
-
-    Python 3.x
-
-    FastAPI
-
-    Uvicorn
-
-# Files
-
-    Dockerfile: Instructions for creating the Docker image.
-
-    app.py: FastAPI app with endpoints.
-
-    requirements.txt: Python dependencies.
-
-
-
-
-
 ## Example Output
 
 ```json
@@ -141,38 +87,4 @@ docker rm node-1 node-2
 
 
 
-# Endpoints
 
-    POST /process
-    Accepts plain text input, processes it, and returns a JSON response with the result and the node ID.
-
-# Requirements
-
-    Docker
-
-    Python 3.x
-
-    FastAPI
-
-    Uvicorn
-
-# Files
-
-    Dockerfile: Instructions for creating the Docker image.
-
-    app.py: FastAPI app with endpoints.
-
-    requirements.txt: Python dependencies.
-
-    sample_input.txt: Example input for testing.
-
-
-# To add this to your `README.md`:
-
-1. Open your `task_c/README.md` file using `nano`:
-   ```bash
-   nano task_c/README.md
-
-    Paste the formatted content above into the file.
-
-    Save and exit by pressing Ctrl + X, then Y to confirm, and Enter to save the changes.
