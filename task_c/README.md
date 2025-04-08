@@ -26,26 +26,26 @@ In the root folder of Task C (`task_c`), build the Docker image:
 
 Run at least two containers with different node IDs:
 
-docker run -d --name node-1 -e NODE_ID="node-1" -p 8001:8000 coding_assessment_api
-docker run -d --name node-2 -e NODE_ID="node-2" -p 8002:8000 coding_assessment_api
+    docker run -d --name node-1 -e NODE_ID="node-1" -p 8001:8000 coding_assessment_api
+    docker run -d --name node-2 -e NODE_ID="node-2" -p 8002:8000 coding_assessment_api
 ### Step 4: Test the Containers
 
 You can test the containers using curl. For example:
 
-curl -X POST "http://127.0.0.1:8001/process" -H "Content-Type: text/plain" --data-binary @sample_input.txt
-curl -X POST "http://127.0.0.1:8002/process" -H "Content-Type: text/plain" --data-binary @sample_input.txt
+    curl -X POST "http://127.0.0.1:8001/process" -H "Content-Type: text/plain" --data-binary @sample_input.txt
+    curl -X POST "http://127.0.0.1:8002/process" -H "Content-Type: text/plain" --data-binary @sample_input.txt
 
 ### Step 5: Stop the Containers
 
 To stop the containers:
 
-docker stop node-1 node-2
+    docker stop node-1 node-2
 
 ### Step 6: Clean Up
 
 To remove the containers:
 
-docker rm node-1 node-2
+    docker rm node-1 node-2
 
 # Endpoints
 

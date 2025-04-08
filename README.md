@@ -11,22 +11,22 @@ This repository contains the complete solution for the multi-part coding assessm
 
 ## Repository Structure
 
-coding_assessment_repo/
-├── README.md  <-- Main project README
-├── task_a/
-│   ├── main.py
-│   ├── README.md
-├── task_b/
-│   ├── app.py
-│   ├── requirements.txt
-│   ├── README.md
-├── task_c/
-│   ├── app.py
-│   ├── Dockerfile
-│   ├── docker-compose.yml
-│   ├── README.md
-├── task_2/
-│   ├── data/
+##coding_assessment_repo/
+##├── README.md  <-- Main project README
+##├── task_a/
+##│   ├── main.py
+##│   ├── README.md
+##├── task_b/
+##│   ├── app.py
+##│   ├── requirements.txt
+##│   ├── README.md
+##├── task_c/
+##│   ├── app.py
+##│   ├── Dockerfile
+##│   ├── docker-compose.yml
+##│   ├── README.md
+##├── task_2/
+##│   ├── data/
 │   │   └── sample_ipdr.xlsx
 │   ├── output/
 │   │   └── (will store generated CSVs or visualizations)
