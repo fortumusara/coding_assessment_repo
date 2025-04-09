@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  app1:
+    build: .
+    environment:
+      - NODE_ID=app1
+    ports:
+      - "8001:80"
+    networks:
+      - app_network
+
+  app2:
+    build: .
+    environment:
+      - NODE_ID=app2
+    ports:
+      - "8002:80"
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
+

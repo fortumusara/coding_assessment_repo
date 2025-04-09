@@ -18,9 +18,12 @@ This task processes a plain text file containing call start and end times (one p
 
 ## ▶️ How to Run
 
+## How to Run
+Use the following command to test your implementation with sample input:
+
 ```bash
 cd task_a
-python3 main.py < input.txt
+cat test_input.txt | python3 time_difference.py
 
 
 You can also test with the included sample data in sample_input.txt.
@@ -44,9 +47,11 @@ You can also test with the included sample data in sample_input.txt.
 
 📁 Files
 
-    main.py: Main script to calculate durations.
+    time_difference.py: Main script to compute time differences.
 
-    sample_input.txt: Sample input data for testing.
+    test_input.txt: Sample input data for testing.
+
+README.md: This documentation file.
 
 📬 Output Format
 
